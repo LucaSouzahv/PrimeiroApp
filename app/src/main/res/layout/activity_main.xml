@@ -23,6 +23,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="Usuário:"
+        android:textColor="#000"
         android:textSize="20sp" />
 
     <EditText
@@ -30,14 +31,13 @@
         android:layout_height="wrap_content" />
 
     <TextView
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="Senha:"
-        android:textSize="20sp"
-        />
+        android:textColor="#000"
+        android:textSize="20sp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -46,14 +46,20 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entrar"
-        />
+        android:text="Entrar" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sair"
-        />
+        android:text="Sair" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15sp"
+        android:gravity="end"
+        android:text="Esqueceu a senha?"
 
 
 </LinearLayout>
